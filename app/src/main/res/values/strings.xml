@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Business app</string>
+    <string name="business_name">ALMADINA</string>
+    <string name="address">1019 Method Rd\n Raleigh, NC, 27606</string>
+    <string name="location_coordinates">geo:35.784836,-78.693485?q=35.784836,-78.693485(Almadina+Super+Market)</string>
+    <string name="phone_no">9197556220</string>
+    <string name="email">almadinamarket@aol.com</string>
+    <string name="web">www.almadinasupermarket.net/</string>
+
+    <string-array name="hours_of_operation">
+        <item>Hours of operation</item>
+        <item>Mon-Fri\u0020\u0020\u002009:00AM - 10:00PM</item>
+        <item>Sat\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u002009:00 AM - 11:00 PM</item>
+        <item>Sun\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u002009:00 AM - 10:00 PM</item>
+    </string-array>
 </resources>
