@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_layout_marginLeft">8dp</dimen>
+    <dimen name="image_layout_marginRight">8dp</dimen>
+    <dimen name="first_row_image_layout_marginBottom">8dp</dimen>
+    <dimen name="gap_between_images">4dp</dimen>
+    <dimen name="second_row_image_layout_marginBottom">16dp</dimen>
+    <dimen name="spinner_layout_marginLeft">38dp</dimen>
+    <dimen name="spinner_layout_marginBottom">16dp</dimen>
+
+    <dimen name="textSize_of_views">22sp</dimen>
+    <dimen name="contacts_layout_marginLeft">8dp</dimen>
+    <dimen name="contacts_layout_marginBottom">8dp</dimen>
+    <dimen name="drawablePadding">8dp</dimen>
+
+</resources>

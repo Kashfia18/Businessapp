@@ -16,12 +16,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Spinner spinner = findViewById(R.id.hours_of_operation);
-// Create an ArrayAdapter using the string array and a default spinner layout
+        // Create an ArrayAdapter using the string array and a custom spinner layout
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-                R.array.hours_of_operation, android.R.layout.simple_spinner_item);
-// Specify the layout to use when the list of choices appears
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-// Apply the adapter to the spinner
+                R.array.hours_of_operation,R.layout.spinner_item_layout);
+        // Specify the custom layout to use when the list of choices appears
+        adapter.setDropDownViewResource(R.layout.spinner_items_dropdown_layout);
+        // Apply the adapter to the spinner
         spinner.setAdapter(adapter);
     }
 
