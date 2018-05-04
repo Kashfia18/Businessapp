@@ -27,17 +27,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/first_row_image_layout_marginBottom"
-                android:layout_marginLeft="@dimen/image_layout_marginLeft"
-                android:layout_marginStart="@dimen/image_layout_marginLeft"
-                android:layout_marginRight="@dimen/image_layout_marginRight"
                 android:layout_marginEnd="@dimen/image_layout_marginRight"
+                android:layout_marginLeft="@dimen/image_layout_marginLeft"
+                android:layout_marginRight="@dimen/image_layout_marginRight"
+                android:layout_marginStart="@dimen/image_layout_marginLeft"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="@dimen/gap_between_images"
                     android:layout_marginEnd="@dimen/gap_between_images"
+                    android:layout_marginRight="@dimen/gap_between_images"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:contentDescription="@string/restaurant_image"
@@ -59,26 +59,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/second_row_image_layout_marginBottom"
-                android:layout_marginLeft="@dimen/image_layout_marginLeft"
-                android:layout_marginStart="@dimen/image_layout_marginLeft"
-                android:layout_marginRight="@dimen/image_layout_marginRight"
                 android:layout_marginEnd="@dimen/image_layout_marginRight"
+                android:layout_marginLeft="@dimen/image_layout_marginLeft"
+                android:layout_marginRight="@dimen/image_layout_marginRight"
+                android:layout_marginStart="@dimen/image_layout_marginLeft"
                 android:orientation="horizontal">
 
 
                 <ImageView
-                    android:id="@+id/almadina_grocery"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="@dimen/gap_between_images"
                     android:layout_marginEnd="@dimen/gap_between_images"
+                    android:layout_marginRight="@dimen/gap_between_images"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:contentDescription="@string/grocery_image"
                     android:src="@drawable/almadina_grocery" />
 
                 <ImageView
-                    android:id="@+id/almadina_grocery_1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/gap_between_images"
@@ -95,33 +93,33 @@
             android:id="@+id/hours_of_operation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
             android:layout_marginLeft="@dimen/spinner_layout_marginLeft"
-            android:layout_marginStart="@dimen/spinner_layout_marginLeft"
-            android:layout_marginBottom="16dp"/>
+            android:layout_marginStart="@dimen/spinner_layout_marginLeft" />
 
         <TextView
             style="@style/contactStyles"
+            android:contentDescription="@string/address"
             android:drawableLeft="@drawable/ic_location_on_black_24dp"
             android:drawableStart="@drawable/ic_location_on_black_24dp"
-            android:text="@string/address"
             android:onClick="showMap"
-            android:contentDescription="@string/address"/>
+            android:text="@string/address" />
 
         <TextView
             style="@style/contactStyles"
+            android:contentDescription="@string/phone_no"
             android:drawableLeft="@drawable/ic_local_phone_black_24dp"
             android:drawableStart="@drawable/ic_local_phone_black_24dp"
-            android:text="@string/phone_no"
             android:onClick="dialPhoneNumber"
-            android:contentDescription="@string/phone_no"/>
+            android:text="@string/phone_no" />
 
         <TextView
             style="@style/contactStyles"
             android:autoLink="email"
+            android:contentDescription="@string/email"
             android:drawableLeft="@drawable/ic_email_black_24dp"
             android:drawableStart="@drawable/ic_email_black_24dp"
-            android:text="@string/email"
-            android:contentDescription="@string/email"/>
+            android:text="@string/email" />
 
         <TextView
             style="@style/contactStyles"
@@ -130,6 +128,6 @@
             android:drawableLeft="@drawable/ic_web_black_24dp"
             android:drawableStart="@drawable/ic_web_black_24dp"
             android:text="@string/web"
-            android:textSize="18sp"/>
+            android:textSize="18sp" />
     </LinearLayout>
 </ScrollView>
